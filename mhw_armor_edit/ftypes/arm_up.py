@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from mhw_armor_edit import ftypes  as ft
+from mhw_armor_edit import ftypes as ft
 from mhw_armor_edit.ftypes import StructFile, Struct, short
 
 

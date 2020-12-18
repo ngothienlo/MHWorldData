@@ -23,7 +23,8 @@ all_languages = {
     'ru': 'Pусский',
     'ko': '한국어',
     'zh': '繁體中文',
-    'ar': 'Arabe'
+    'ar': 'Arabe',
+    'vi': 'Việt Nam'
 }
 
 "A list of languages that require complete translations. Used in validation"
@@ -61,8 +62,8 @@ BOW = 'bow'
 
 "A list of all melee weapon types"
 weapon_types_melee = (GREAT_SWORD, LONG_SWORD, SWORD_AND_SHIELD, DUAL_BLADES,
-    HAMMER, HUNTING_HORN, LANCE, GUNLANCE, SWITCH_AXE, CHARGE_BLADE,
-    INSECT_GLAIVE)
+                      HAMMER, HUNTING_HORN, LANCE, GUNLANCE, SWITCH_AXE, CHARGE_BLADE,
+                      INSECT_GLAIVE)
 
 "A list of all bowgun weapon types"
 weapon_types_gun = (LIGHT_BOWGUN, HEAVY_BOWGUN)
@@ -74,10 +75,12 @@ weapon_types_ranged = (*weapon_types_gun, BOW)
 weapon_types = (*weapon_types_melee, *weapon_types_ranged)
 
 "Valid possible kinsect boosts"
-valid_kinsects = ('sever', 'blunt', 'speed', 'element', 'health', 'stamina', 'spirit_strength', 'stamina_health')
+valid_kinsects = ('sever', 'blunt', 'speed', 'element', 'health',
+                  'stamina', 'spirit_strength', 'stamina_health')
 
 "Valid possible phial types (switchaxe and chargeblade)"
-valid_phials = ('power', 'power element', 'dragon', 'poison', 'paralysis', 'exhaust', 'impact')
+valid_phials = ('power', 'power element', 'dragon',
+                'poison', 'paralysis', 'exhaust', 'impact')
 
 "Valid gunlance shelling types"
 valid_shellings = ('normal', 'wide', 'long')
